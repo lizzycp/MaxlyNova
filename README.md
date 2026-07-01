@@ -20,16 +20,6 @@ Este repositorio trata de ser una versión fiel, traducida al español de la pla
 ## Introducción
 
 _Esta parte debe ser completada por los participantes con las aclaraciones técnicas sobre el código: de qué módulos consta el código, cómo se relacionan con los componentes electromecánicos del vehículo y cuál es el proceso para construir/compilar/cargar el código a los controladores del vehículo._
-
-## Cómo preparar el repositorio en función de la plantilla
-
-_Elimine esta sección antes de la primera confirmación en el repositorio_
-
-1. Clone este repositorio utilizando la funcionalidad `git clone`.
-2. Elimine el directorio `.git`
-3. [Inicialice un nuevo repositorio público en GitHub](https://github.com/new) siguiendo las instrucciones de la sección "Crear un nuevo repositorio en la línea de comandos" (que aparece después de presionar el botón "Crear repositorio").
-
-
 ---
 
 Engineering materials
@@ -50,11 +40,3 @@ This repository contains engineering materials of a self-driven vehicle's model 
 ## Introduction
 
 _This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
-
-## How to prepare the repo based on the template
-
-_Remove this section before the first commit to the repository_
-
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
