@@ -1,0 +1,48 @@
+PS C:\Users\rclub> ping 10.173.8.211
+
+Haciendo ping a 10.173.8.211 con 32 bytes de datos:
+Respuesta desde 10.173.8.211: bytes=32 tiempo=218ms TTL=64
+Respuesta desde 10.173.8.211: bytes=32 tiempo=6ms TTL=64
+Respuesta desde 10.173.8.211: bytes=32 tiempo=3ms TTL=64
+Respuesta desde 10.173.8.211: bytes=32 tiempo=5ms TTL=64
+
+Estadísticas de ping para 10.173.8.211:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 3ms, Máximo = 218ms, Media = 58ms
+PS C:\Users\rclub> ssh adeeptxam@10.173.8.211
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ED25519 key sent by the remote host is
+SHA256:tUtJEjw2kuDrm3PzbSC+zOqtA0XJFRVyTUfu8Q7fvdw.
+Please contact your system administrator.
+Add correct host key in C:\\Users\\rclub/.ssh/known_hosts to get rid of this message.
+Offending ED25519 key in C:\\Users\\rclub/.ssh/known_hosts:1
+Host key for 10.173.8.211 has changed and you have requested strict checking.
+Host key verification failed.
+PS C:\Users\rclub> ssh-keygen -R 10.173.8.211
+# Host 10.173.8.211 found: line 1
+C:\Users\rclub/.ssh/known_hosts updated.
+Original contents retained as C:\Users\rclub/.ssh/known_hosts.old
+PS C:\Users\rclub> ssh adeeptxam@10.173.8.211
+The authenticity of host '10.173.8.211 (10.173.8.211)' can't be established.
+ED25519 key fingerprint is SHA256:tUtJEjw2kuDrm3PzbSC+zOqtA0XJFRVyTUfu8Q7fvdw.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '10.173.8.211' (ED25519) to the list of known hosts.
+adeeptxam@10.173.8.211's password:
+Linux wrobotica 6.12.93+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.93-1+rpt1 (2026-06-12) aarch64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Jun 17 19:21:52 2026
+adeeptxam@wrobotica:~ $
